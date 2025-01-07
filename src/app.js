@@ -21,9 +21,9 @@ function getRandomNumber(a, b) {
 }
 
 function getRandom(anyArray) {
-  let max = who.length - 1;
+  let max = anyArray.length - 1;
   let min = 0;
-  let random = getRandom(min, max);
+  let random = getRandomNumber(min, max);
   return anyArray[random];
 }
 
